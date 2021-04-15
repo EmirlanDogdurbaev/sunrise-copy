@@ -9,15 +9,15 @@ import Contacts from "./components/Contacts/Contacts";
 import Number from "./components/Number/Number";
 import NavButton from "./components/NavButton/NavButton";
 import Home from "./components/Home/Home";
-import Section from "./components/Section/Section";
 
 function App() {
   return (
     <div className="App">
       <ul className="ul">
         <li className="li1">
-          <NavLink exact activeClassName="activeLink" to="/">
-            <Logo />
+       
+          <NavLink exact activeClassName="activeLink" to="/home">
+          <Logo />
           </NavLink>
         </li>
 
@@ -38,7 +38,7 @@ function App() {
           <li>
             <NavLink activeClassName="activeLink" to="/projects">
               Projects
-              <Projects />
+              {/* <Projects /> */}
             </NavLink>
           </li>
           <li>
@@ -84,10 +84,7 @@ function App() {
           </NavLink>
         </li>
       </ul>
-      <main >
-        <Home />
-        <Section />
-      </main>
+  
 
       <Switch>
         <Route path="/projects" component={Projects} />
@@ -98,7 +95,9 @@ function App() {
         <Route path="/number" component={Number} />
         <Route path="/navButton" component={NavButton} />
 
-        <Route exact path="/" component={Logo} />
+
+
+        <Route exact path="/" component={Home} />
       </Switch>
     </div>
   );

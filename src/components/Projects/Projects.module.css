@@ -1,0 +1,15 @@
+.Projects{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.miniCont{
+    display: flex;
+    justify-content: space-between;
+}
