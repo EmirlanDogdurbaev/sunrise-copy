@@ -1,0 +1,64 @@
+.ser{
+display: flex;
+flex-direction: column;
+}
+.ser h5{
+    margin: 40px 0px 20px;
+    color: #6b6b6b;
+    font-size: 14px;
+}
+
+.ser h1{
+    font-size: 32px;
+    margin: 0 0 30px;
+}
+
+.imgCont{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.mobile{
+    width: 325px;
+    height: 411px;
+}
+
+.mobile div{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+    line-height: 1.1;
+}
+
+.mobile div p{
+    padding: 5px 10px;
+    line-height: 1.5;
+}
+.mobile div h4{
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.desing{
+    width: 405px;
+    align-content: center;
+} 
+
+.desing div{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+    line-height: 1.1;
+} 
+.desing div p{
+    padding: 5px 10px;
+    line-height: 1.5;
+} 
+
+.desing div h4{
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 600;
+} 

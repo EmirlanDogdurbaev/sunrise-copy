@@ -24,12 +24,12 @@ function App() {
         <div className="language">
           <li>
             <NavLink activeClassName="activeLink" to="/ru">
-             <p> RU</p>
+             <p className="class"> RU</p>
             </NavLink>
           </li>
           <li>
             <NavLink activeClassName="activeLink" to="/eng">
-              <p>ENG</p>
+              <p className="class">ENG</p>
             </NavLink>
           </li>
         </div>
@@ -37,30 +37,28 @@ function App() {
         <div className="center">
           <li>
             <NavLink activeClassName="activeLink" to="/projects">
-              Projects
-              {/* <Projects /> */}
+             <p className="class"> Projects </p>
             </NavLink>
           </li>
           <li>
             <NavLink activeClassName="activeLink" to="/services">
-              Services
-              <Services />
+             <p className="class">Services</p>
             </NavLink>
           </li>
           <li>
             <NavLink activeClassName="activeLink" to="/aboutUs">
-              About Us <AboutUs />
+            <p className="class">  About Us </p>
             </NavLink>
           </li>
           <li>
             <NavLink activeClassName="activeLink" to="/blog">
-              Blog
+            <p className="class">Blog</p>  
               <Blog />
             </NavLink>
           </li>
           <li>
             <NavLink activeClassName="activeLink" to="/contacts">
-              Contacts
+             <p className="class">Contacts</p> 
               <Contacts />
             </NavLink>
           </li>
@@ -71,7 +69,7 @@ function App() {
           <span>
             <p>Call by phone</p> 
             <NavLink activeClassName="activeLink" to="/number">
-              +996 771 11 33 55
+             <div className="num">+996 771 11 33 55</div> 
               <Number />
             </NavLink>
           </span>

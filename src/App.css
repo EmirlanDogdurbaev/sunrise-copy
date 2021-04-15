@@ -73,6 +73,25 @@ ul{
   font-weight: 400;
 }
 
+.class{
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #111517;
+    padding: 10px 0;
+    transition: .2s;
+}
 
+.class:hover{
+  color: #EF0D33;
+}
+
+.num{
+  color: #111517;
+}
+
+.num:hover{
+  color: #EF0D33;
+}
 
 
