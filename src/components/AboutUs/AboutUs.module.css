@@ -1,0 +1,55 @@
+.bigCont{
+    width:1200px;
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+}
+.sec h1{
+    margin: 40px 0 30px;
+    font-size: 32px;
+}
+.sec h5{
+    margin-top: 20px;
+}
+.sec p{
+    color: #6b6b6b;
+    line-height: 1.8;
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+.cont1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont1 span{
+    width: 322px;
+}
+
+.cont1 span p{
+    color: #6b6b6b;
+    font-size: 17px;
+}
+.cont1 span h1{
+    color: #111517;
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+
+.imgSpan{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imgSpan img{
+    text-align: center;
+    width: 1168px;
+    height: 876px;
+   margin: 0 auto;
+   border-radius: 5%;
+}
