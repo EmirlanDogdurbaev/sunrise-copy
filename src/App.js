@@ -53,13 +53,12 @@ function App() {
           <li>
             <NavLink activeClassName="activeLink" to="/blog">
             <p className="class">Blog</p>  
-              <Blog />
             </NavLink>
           </li>
           <li>
             <NavLink activeClassName="activeLink" to="/contacts">
              <p className="class">Contacts</p> 
-              <Contacts />
+         
             </NavLink>
           </li>
         </div>
